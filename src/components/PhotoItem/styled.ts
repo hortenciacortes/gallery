@@ -15,12 +15,16 @@ export const Container = styled.div`
         border-radius: 10px;
     }
     div{
-        /* height: 22px */
         display: flex;
         align-items: center;
         justify-content: space-between;
+        height: 42px
     }
-    div>svg{
+    a{
+        padding: 5px;
+    }
+    a>svg{
         color: red;
+        width: 24px;
     }
 `;

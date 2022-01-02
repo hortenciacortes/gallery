@@ -8,13 +8,13 @@ export const getAll = async () => {
 
     const imagesFolder = ref(storage, "images");
     const photoList = await listAll(imagesFolder);
-
+console.log(photoList)
     for(let i in photoList.items){
         const photoUrl = await getDownloadURL(photoList.items[i])
 
         list.push({
             name: photoList.items[i].name,
-            url: photoUrl
+            url: photoUrl,
         });
     }
 
@@ -24,8 +24,8 @@ export const getAll = async () => {
 export const insert = async (file: File) => {
     if(['image/jpeg', 'image/jpg', 'image/png'].includes(file.type)){
         const randomName = createId();
-        const newFile = ref(storage, `images/${randomName}`);
-
+        const newFile = ref(storage, `images/${randomName}_${file.name}`);
+        
         const upload = await uploadBytes(newFile, file);
         const photoUrl = await getDownloadURL(upload.ref);
 
