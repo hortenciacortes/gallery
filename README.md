@@ -1,46 +1,65 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Galeria de Fotos
 
-## Available Scripts
+🌱 Projeto de uma galeria de fotos em ReactJS com TypeScript e dados do FireBase
 
-In the project directory, you can run:
+### Conteúdo
 
-### `npm start`
+<p align="center">  
+	<a href="#sobre-projeto">Sobre o projeto</a> •
+	<a href="#layout">Layout</a> • 
+	<a href="#executar-projeto">Como executar o projeto</a> • 
+	<a href="#tecnologias">Tecnologias</a> • 
+	<a href="#autora">Autora</a>  
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 💻 Sobre o Projeto<a id="sobre-projeto"></a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[Projeto Original](https://www.youtube.com/watch?v=ss4BXa-WfgI&t=214s&ab_channel=BoniekyLacerda)
 
-### `npm test`
+Galeria de fotos utilizando ReactJS com TypeScript e dados do FireBase:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] Adicionar novas fotos no FireBase
 
-### `npm run build`
+Incrementos:
+ - [x] Deletar foto
+ - [x] Nome da foto (não do uuid)
+ - [x] Responsividade
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🎨  Layout <a id="layout"></a>
+![Imagem do projeto](https://github.com/HortenciaCorts/gallery/blob/main/src/images/project.png?raw=true)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🚀  Como executar o projeto <a id="executar-projeto"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:  [Git](https://git-scm.com/),  [Node.js](https://nodejs.org/pt-br/)
 
-### `npm run eject`
+Além disto é bom ter um editor para trabalhar com o código como  [VSCode](https://code.visualstudio.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### 🎲Rodando a Aplicação
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+     # Clone este repositório
+	     git clone https://github.com/HortenciaCorts/gallery
+     # Acesse a pasta do projeto no terminal
+	     cd gallery
+     # Instale a dependência do npm
+	     npm install
+     # Execute a aplicação em modo de desenvolvimento
+	     npm start 
+     # O servidor iniciará na porta: 3000
+     # Acesse http://localhost:3000
+    
+### 🛠 Tecnologias <a id="tecnologias"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+- [x] ReactJS
+- [x] TypeScript
+- [x] NodeJS
+- [x] Style-Component
+- [x] Hooks (UseState, UseEffect)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Armazenamento:
+ - [x] FireBase
 
-## Learn More
+### 👧 Autora <a id="autora"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feito com 💖 por Hortência Côrtes 👩‍💻 
