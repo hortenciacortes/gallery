@@ -56,6 +56,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [x] NodeJS
 - [x] Style-Component
 - [x] Hooks (UseState, UseEffect)
+- [x] UUID
 
 Armazenamento:
  - [x] FireBase
